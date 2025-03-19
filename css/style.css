@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    max-height: 100vh;
+    overflow: hidden;
+    margin-bottom: -470px;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video_media{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main_div{
+    width: 400px;
+    height: 450px;
+    padding-top: 20px;
+    padding-left: 12px;
+    background-color:rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: -150px;
+    left: 550px;
+    z-index: 3;
+    border-radius: 40px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.enterLog{
+    font-size: 22px;
+    margin-top: 16px;
+}
+.input{
+    width: 250px;
+    height: 26px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.2); ;
+    margin-top: 14px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+}
+.check{
+    margin-top: 22px;
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+}
+.p{
+    font-size: 20px;
+}
+button{
+    width: 240px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2); ;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
+button:hover{
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.3); ;
+}
+.forgot{
+    margin-top: 15px;
+    font-size: 19px;
+}
+.forgot > a{
+    color: black;
+}
+.forgot > a:hover{
+    color: orange;
+}
+.last{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.last > a{
+    color: blue;
+    font-weight: 600;
+}
